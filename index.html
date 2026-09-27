@@ -2,176 +2,97 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guilherme Neves | Desenvolvedor Full Stack</title>
-  <meta
-    name="description"
-    content="Portfólio de Guilherme Neves, desenvolvedor full stack em formação com foco em desenvolvimento web."
-  >
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  >
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guilherme Neves | Desenvolvedor Front-end</title>
+  <meta name="description" content="Portfólio de Guilherme Neves, estudante de ADS e desenvolvedor front-end, com projetos em HTML, CSS, JavaScript e desenvolvimento web.">
+  <meta name="theme-color" content="#F3EEE4">
+  <!-- TODO: configure site.url and run npm run build before publishing. -->
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="./">
+  <link rel="alternate" hreflang="pt-BR" href="./">
+  <link rel="alternate" hreflang="en" href="./en/">
+  <link rel="alternate" hreflang="x-default" href="./">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:site_name" content="Guilherme Neves">
+  <meta property="og:title" content="Guilherme Neves | Desenvolvedor Front-end">
+  <meta property="og:description" content="Portfólio de Guilherme Neves, estudante de ADS e desenvolvedor front-end, com projetos em HTML, CSS, JavaScript e desenvolvimento web.">
+  <meta property="og:url" content="./">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Guilherme Neves | Desenvolvedor Front-end">
+  <meta name="twitter:description" content="Portfólio de Guilherme Neves, estudante de ADS e desenvolvedor front-end, com projetos em HTML, CSS, JavaScript e desenvolvimento web.">
+  <link rel="icon" type="image/svg+xml" href="./assets/icons/favicon.svg">
+  <link rel="preload" href="./assets/fonts/anton-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script>document.documentElement.classList.add('js');window.addEventListener('error',()=>document.documentElement.classList.remove('js'),true);try{const t=localStorage.getItem('gn-theme');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t;}catch{}</script>
+  <script src="./assets/js/config.js" defer></script>
+  <script src="./assets/js/script.js" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Guilherme Neves","sameAs":["https://github.com/Guilhermeneves10","https://www.linkedin.com/in/guilherme-neves-067065380/"]}</script>
 </head>
 <body>
-  <div class="page-shell">
-    <header class="hero">
-      <nav class="topbar">
-        <a class="brand" href="#inicio">GN</a>
-        <div class="nav-links">
-          <a href="#sobre">Sobre</a>
-          <a href="#projetos">Projetos</a>
-          <a href="#skills">Tecnologias</a>
-          <a href="#contato">Contato</a>
-        </div>
-      </nav>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="GN — Guilherme Neves — Início">GN<span aria-hidden="true">.</span></a>
+      <nav id="navigation" class="navigation" aria-label="Navegação principal"><a href="#inicio" aria-current="location">Início</a><a href="#sobre">Sobre</a><a href="#projetos">Projetos</a><a href="#skills">Habilidades</a><a href="#contato">Contato</a></nav>
+      <div class="header-controls">
+        <div class="languages" role="group" aria-label="Selecionar idioma"><a href="./" lang="pt-BR" hreflang="pt-BR" aria-label="PT — Português — idioma ativo" aria-current="page">PT</a><span aria-hidden="true">/</span><a href="./en/" lang="en" hreflang="en" aria-label="EN — English" data-language-link>EN</a></div>
+        <button class="theme-toggle icon-button" type="button" aria-label="Tema escuro" aria-pressed="false" hidden><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20 14a8 8 0 0 1-10-10 8 8 0 1 0 10 10Z"/></svg></button>
+        <button class="menu-toggle icon-button" type="button" aria-controls="navigation" aria-expanded="false" aria-label="Abrir menu" data-open-label="Abrir menu" data-close-label="Fechar menu" hidden><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="hero container" id="inicio" aria-labelledby="hero-heading">
+      <div class="hero-topline"><span>DESIGN + CÓDIGO + PROPÓSITO</span><span>GUILHERME NEVES © <span data-year>2026</span></span></div>
+      <div class="hero-stage">
+        <div class="hero-display" aria-hidden="true">PORTFÓLIO</div>
+        <div class="hero-portrait"><span class="brush" aria-hidden="true"></span><figure class="portrait"><img src="./assets/images/portrait-placeholder.svg" width="600" height="720" alt="Placeholder para fotografia de Guilherme Neves, com monograma GN." fetchpriority="high" decoding="async"><figcaption>Fotografia em breve</figcaption></figure><span class="handwritten hero-note">Sempre em construção. Sempre evoluindo.</span></div>
+        <svg class="star" viewBox="0 0 90 90" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m45 2 5 30 25-18-18 25 31 6-31 5 18 25-25-18-5 31-6-31-25 18 18-25L2 45l30-6-18-25 25 18Z"/></svg>
+      </div>
+      <div class="hero-bottom"><div class="hero-intro"><p class="hello">Olá, eu sou</p><h1 id="hero-heading">Guilherme Neves<span>Desenvolvedor Front-end</span></h1></div><div class="hero-message"><p>Transformando ideias em interfaces que conectam pessoas e soluções.</p><div class="actions"><a class="button primary" href="#projetos">Ver projetos<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a><a class="button secondary" href="#contato">Falar comigo<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div></div></div>
+      <div class="hero-foot"><span class="availability" data-availability><span aria-hidden="true"></span>Disponível para oportunidades</span><a class="scroll-link" href="#sobre">Role para conhecer<span aria-hidden="true">↓</span></a></div>
+    </section>
+    <section class="about dark-section" id="sobre" aria-labelledby="about-heading">
+      <div class="container about-grid"><div class="about-copy"><p class="eyebrow">01 / UM POUCO SOBRE MIM</p><h2 id="about-heading">QUEM É<br>GUILHERME?</h2><p class="body-large">Sou estudante de Análise e Desenvolvimento de Sistemas e apaixonado por tecnologia. Crio experiências digitais que unem design, funcionalidade e propósito.</p><p>Estou em constante evolução, transformando cada projeto em aprendizado e cada desafio em uma oportunidade de crescimento.</p></div>
+        <figure class="polaroid"><span class="tape" aria-hidden="true"></span><img src="./assets/images/portrait-placeholder.svg" width="600" height="720" loading="lazy" decoding="async" alt="Placeholder para fotografia de Guilherme Neves, com monograma GN."><figcaption><span class="handwritten">Muito prazer, Guilherme.</span><small>Fotografia em breve</small></figcaption></figure>
+        <div class="facts"><article><span class="fact-index" aria-hidden="true">01</span><div><p class="eyebrow">Formação</p><h3>Análise e Desenvolvimento de Sistemas</h3><p>Em andamento</p></div></article><article><span class="fact-index" aria-hidden="true">02</span><div><p class="eyebrow">Experiência</p><h3>Aprendizado que vira prática</h3><p>Projetos pessoais e acadêmicos com foco em desenvolvimento web.</p></div></article><article><span class="fact-index" aria-hidden="true">03</span><div><p class="eyebrow">Objetivo</p><h3>O próximo passo é em equipe</h3><p>Conquistar uma oportunidade em front-end e crescer como desenvolvedor.</p></div></article></div>
+      </div>
+    </section>
+    <section class="skills section container" id="skills" aria-labelledby="skills-heading"><div class="section-heading"><div><p class="eyebrow">02 / MINHA CAIXA DE FERRAMENTAS</p><h2 id="skills-heading">IDEIAS BOAS.<br>FERRAMENTAS CERTAS.</h2></div><p>Tecnologias que fazem parte da minha jornada de aprendizado e criação.</p></div>
+      <ul class="skill-grid"><li class="skill-card"><div class="skill-icon"><img src="assets/icons/html.png" alt="Ícone do HTML5" width="56" height="56"></div><span>HTML</span></li><li class="skill-card"><div class="skill-icon"><img src="assets/icons/css.png" alt="Ícone do CSS3" width="56" height="56"></div><span>CSS</span></li><li class="skill-card"><div class="skill-icon"><!-- Future PNG: assets/icons/javascript.png; replace the symbol with an img with width="56" height="56". --><span class="skill-symbol" aria-hidden="true">JS</span></div><span>JavaScript</span></li><li class="skill-card"><div class="skill-icon"><!-- Future PNG: assets/icons/java.png; replace the symbol with an img with width="56" height="56". --><span class="skill-symbol" aria-hidden="true">{ }</span></div><span>Java</span></li><li class="skill-card"><div class="skill-icon"><!-- Future PNG: assets/icons/python.png; replace the symbol with an img with width="56" height="56". --><span class="skill-symbol" aria-hidden="true">Py</span></div><span>Python</span></li><li class="skill-card"><div class="skill-icon"><!-- Future PNG: assets/icons/git.png; replace the symbol with an img with width="56" height="56". --><span class="skill-symbol" aria-hidden="true">⑂</span></div><span>Git</span></li><li class="skill-card"><div class="skill-icon"><!-- Future PNG: assets/icons/github.png; replace the symbol with an img with width="56" height="56". --><span class="skill-symbol" aria-hidden="true">GH</span></div><span>GitHub</span></li></ul>
+    </section>
+    <section class="projects section container" id="projetos" aria-labelledby="projects-heading"><div class="section-heading"><div><p class="eyebrow">03 / DO CONCEITO À INTERFACE</p><h2 id="projects-heading">PROJETOS<br>SELECIONADOS</h2></div><div><p>Uma seleção de ideias transformadas em experiências digitais.</p><span class="handwritten project-note">Feitos para fazer a diferença.</span></div></div>
+      <div class="projects-grid"><article class="project-card" aria-labelledby="project-0">
+      <figure class="project-image"><img src="./assets/images/bichinho-feliz-1200.jpg" srcset="./assets/images/bichinho-feliz-600.jpg 600w, ./assets/images/bichinho-feliz-1200.jpg 1200w" sizes="(min-width: 768px) 45vw, 90vw" alt="Página inicial do Bichinho Feliz, com produtos e agendamento de serviços para pets." width="1200" height="750" loading="lazy" decoding="async"><span class="project-number" aria-hidden="true">01</span></figure>
+      <div class="project-heading"><h3 id="project-0">Bichinho Feliz</h3><span class="category">Pet shop</span></div>
+      <p>Site institucional e catálogo de produtos e serviços para pet shop.</p><ul class="tags" aria-label="HTML, CSS e JavaScript"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+      <div class="project-links"><a class="" href="https://bichinho-feliz.vercel.app/" target="_blank" rel="noopener noreferrer"><span>Ver site<span class="sr-only"> — Bichinho Feliz</span></span><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a><a class="" href="https://github.com/Guilhermeneves10/Site-de-pet-shop" target="_blank" rel="noopener noreferrer"><span>GitHub<span class="sr-only"> — Bichinho Feliz</span></span><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div>
+    </article>
+<article class="project-card" aria-labelledby="project-1">
+      <figure class="project-image"><img src="./assets/images/project-placeholder.svg" alt="Placeholder de captura de tela do projeto Seven Wealth." width="1200" height="750" loading="lazy" decoding="async"><span class="project-number" aria-hidden="true">02</span><figcaption>Captura de tela em breve</figcaption></figure>
+      <div class="project-heading"><h3 id="project-1">Seven Wealth</h3><span class="category">Finanças pessoais</span></div>
+      <p>Planejamento financeiro, metas, aportes e evolução patrimonial em uma experiência digital.</p><ul class="tags" aria-label="HTML, CSS e JavaScript"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
 
-      <section class="hero-content" id="inicio">
-        <div class="hero-copy reveal">
-          <span class="eyebrow">Disponível para primeira oportunidade</span>
-          <h1>Crio interfaces web com visual forte, código limpo e vontade de evoluir rápido.</h1>
-          <p class="hero-text">
-            Sou Guilherme Neves, estudante de Análise e Desenvolvimento de Sistemas com foco em
-            desenvolvimento web e construção de experiências modernas.
-          </p>
+    </article>
+<article class="project-card" aria-labelledby="project-2">
+      <figure class="project-image"><img src="./assets/images/seven-menu-1200.jpg" srcset="./assets/images/seven-menu-600.jpg 600w, ./assets/images/seven-menu-1200.jpg 1200w" sizes="(min-width: 768px) 45vw, 90vw" alt="Página inicial do Seven Menu com apresentação do cardápio digital e demonstração da pizzaria Forno &amp; Brasa." width="1200" height="750" loading="lazy" decoding="async"><span class="project-number" aria-hidden="true">03</span></figure>
+      <div class="project-heading"><h3 id="project-2">Seven Menu — Forno &amp; Brasa</h3><span class="category">Cardápio digital</span></div>
+      <p>Experiência de cardápio digital para restaurantes, com a pizzaria Forno &amp; Brasa como demonstração.</p><ul class="tags" aria-label="HTML, CSS e JavaScript"><li>Next.js</li><li>React</li><li>CSS</li></ul>
+      <div class="project-links"><a class="" href="https://seven-menu.vercel.app/" target="_blank" rel="noopener noreferrer"><span>Ver site<span class="sr-only"> — Seven Menu — Forno &amp; Brasa</span></span><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div>
+    </article>
+<article class="project-card" aria-labelledby="project-3">
+      <figure class="project-image"><img src="./assets/images/project-placeholder.svg" alt="Placeholder de captura de tela do projeto Seven Store." width="1200" height="750" loading="lazy" decoding="async"><span class="project-number" aria-hidden="true">04</span><figcaption>Captura de tela em breve</figcaption></figure>
+      <div class="project-heading"><h3 id="project-3">Seven Store</h3><span class="category">E-commerce</span></div>
+      <p>Loja conceitual de streetwear com catálogo, produtos e identidade premium.</p><ul class="tags" aria-label="HTML, CSS e JavaScript"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
 
-          <div class="hero-actions">
-            <a class="button button-primary" href="#projetos">Ver projetos</a>
-            <a class="button button-secondary" href="https://www.linkedin.com/in/guilherme-neves-067065380/" target="_blank" rel="noreferrer">LinkedIn</a>
-          </div>
-
-          <ul class="stats">
-            <li>
-              <strong>4+</strong>
-              <span>Projetos publicados</span>
-            </li>
-            <li>
-              <strong>Front-end</strong>
-              <span>Foco atual de especialização</span>
-            </li>
-            <li>
-              <strong>GitHub</strong>
-              <span>Prática constante e evolução contínua</span>
-            </li>
-          </ul>
-        </div>
-
-        <div class="hero-card reveal">
-          <p class="card-label">Perfil profissional</p>
-          <h2>Desenvolvedor Full Stack em formação</h2>
-          <p>
-            Busco transformar estudo em entrega real, criando projetos que mostram iniciativa,
-            organização e atenção aos detalhes.
-          </p>
-
-          <div class="tag-list">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>GitHub</span>
-          </div>
-        </div>
-      </section>
-    </header>
-
-    <main>
-      <section class="content-section reveal" id="sobre">
-        <div class="section-heading">
-          <span class="section-kicker">Sobre mim</span>
-          <h2>Apresentação direta, com foco em crescimento e execução.</h2>
-        </div>
-        <div class="about-grid">
-          <p>
-            Estou construindo minha carreira em tecnologia com foco em desenvolvimento web.
-            Gosto de aprender na prática, transformar ideias em interfaces funcionais e evoluir
-            projeto por projeto.
-          </p>
-          <p>
-            Meu objetivo é conquistar minha primeira oportunidade como desenvolvedor e contribuir
-            com times que valorizam aprendizado, consistência e vontade de fazer bem feito.
-          </p>
-        </div>
-      </section>
-
-      <section class="content-section reveal" id="projetos">
-        <div class="section-heading">
-          <span class="section-kicker">Projetos</span>
-          <h2>Alguns trabalhos que mostram minha prática com desenvolvimento web.</h2>
-        </div>
-
-        <div class="projects-grid">
-          <article class="project-card">
-            <span class="project-index">01</span>
-            <h3>Lista de Tarefas</h3>
-            <p>CRUD completo utilizando JavaScript com foco em interatividade e organização de dados.</p>
-            <a href="https://github.com/Guilhermeneves10/Lista-de-tarefas" target="_blank" rel="noreferrer">Ver projeto</a>
-          </article>
-
-          <article class="project-card">
-            <span class="project-index">02</span>
-            <h3>Projeto com API</h3>
-            <p>Consumo de API externa para exibição dinâmica de informações em uma interface web.</p>
-            <a href="https://github.com/Guilhermeneves10/pagina-de-filmes-com-API" target="_blank" rel="noreferrer">Ver projeto</a>
-          </article>
-
-          <article class="project-card">
-            <span class="project-index">03</span>
-            <h3>Página de Pet Shop</h3>
-            <p>Landing page com proposta visual comercial, pensada para apresentar serviços de forma clara.</p>
-            <a href="https://github.com/Guilhermeneves10/Site-de-pet-shop" target="_blank" rel="noreferrer">Ver projeto</a>
-          </article>
-
-          <article class="project-card">
-            <span class="project-index">04</span>
-            <h3>Streaming de Filmes</h3>
-            <p>Interface inspirada na Netflix, explorando layout, destaque de conteúdo e ambientação visual.</p>
-            <a href="https://github.com/Guilhermeneves10/Netflixcopy" target="_blank" rel="noreferrer">Ver projeto</a>
-          </article>
-        </div>
-      </section>
-
-      <section class="content-section reveal" id="skills">
-        <div class="section-heading">
-          <span class="section-kicker">Tecnologias</span>
-          <h2>Ferramentas que fazem parte da minha base atual.</h2>
-        </div>
-
-        <div class="skills-grid">
-          <div class="skill-pill">HTML semântico</div>
-          <div class="skill-pill">CSS responsivo</div>
-          <div class="skill-pill">JavaScript</div>
-          <div class="skill-pill">Git e GitHub</div>
-        </div>
-      </section>
-
-      <section class="content-section reveal" id="contato">
-        <div class="section-heading">
-          <span class="section-kicker">Contato</span>
-          <h2>Vamos conversar sobre oportunidades, projetos ou conexões na área.</h2>
-        </div>
-
-        <div class="contact-grid">
-          <a class="contact-card" href="https://github.com/Guilhermeneves10" target="_blank" rel="noreferrer">
-            <span class="contact-title">GitHub</span>
-            <span class="contact-text">Veja meus repositórios e evolução prática.</span>
-          </a>
-
-          <a class="contact-card" href="https://www.linkedin.com/in/guilherme-neves-067065380/" target="_blank" rel="noreferrer">
-            <span class="contact-title">LinkedIn</span>
-            <span class="contact-text">Entre em contato e acompanhe meu perfil profissional.</span>
-          </a>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <p>&copy; 2026 Guilherme Neves. Construído com HTML, CSS e JavaScript.</p>
-    </footer>
-  </div>
-
-  <script src="script.js"></script>
+    </article></div>
+      <div class="other-projects"><div class="other-heading"><h3>OUTROS PROJETOS</h3><p>Experimentos, estudos e mais um pouco de código.</p></div><ul><li><a class="" href="https://github.com/Guilhermeneves10/Lista-de-tarefas" target="_blank" rel="noopener noreferrer"><span class="other-index" aria-hidden="true">05</span><span><strong>Lista de Tarefas</strong><span class="other-description">Organização e interatividade com JavaScript.</span></span><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></li><li><a class="" href="https://github.com/Guilhermeneves10/pagina-de-filmes-com-API" target="_blank" rel="noopener noreferrer"><span class="other-index" aria-hidden="true">06</span><span><strong>Página de Filmes com API</strong><span class="other-description">Consumo de API e conteúdo dinâmico.</span></span><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></li><li><a class="" href="https://github.com/Guilhermeneves10/Netflixcopy" target="_blank" rel="noopener noreferrer"><span class="other-index" aria-hidden="true">07</span><span><strong>Netflix Copy</strong><span class="other-description">Estudo de interface de streaming.</span></span><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></li></ul></div>
+    </section>
+    <section class="contact dark-section" id="contato" aria-labelledby="contact-heading"><div class="container contact-grid"><div><p class="eyebrow">04 / O PRÓXIMO PROJETO</p><h2 id="contact-heading">VAMOS CRIAR<br>ALGO <em>JUNTOS?</em></h2><p class="contact-description">Uma ideia, um projeto ou uma oportunidade? Vamos conversar sobre o que podemos construir.</p><span class="availability" data-availability><span aria-hidden="true"></span>Disponível para oportunidades</span></div><div class="contact-paper"><span class="tape" aria-hidden="true"></span><p class="handwritten">Boas conversas viram boas ideias.</p><a class="contact-link" href="https://github.com/Guilhermeneves10" target="_blank" rel="noopener noreferrer"><span><strong>GitHub</strong><small>Código, projetos e aprendizado</small></span><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a><a class="contact-link" href="https://www.linkedin.com/in/guilherme-neves-067065380/" target="_blank" rel="noopener noreferrer"><span><strong>LinkedIn</strong><small>Conexões e oportunidades</small></span><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a><a class="contact-link" data-whatsapp hidden><span><strong>WhatsApp</strong><small>Conversar pelo WhatsApp</small></span><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a><span class="paper-signature" aria-hidden="true">GN.</span></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><p>© <span data-year>2026</span> Guilherme Neves.<span>Feito com intenção. E um pouco de código.</span></p><span class="footer-tech">HTML, CSS e JavaScript</span><a href="#inicio">Voltar ao topo<span aria-hidden="true">↑</span></a></div></footer>
+  <a class="whatsapp-float" data-whatsapp hidden><span class="sr-only">Conversar pelo WhatsApp</span><svg viewBox="0 0 32 32" width="27" height="27" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M27 15.5a11 11 0 0 1-16 10L5 27l1.5-6A11 11 0 1 1 27 15.5Z"/><path d="M12 10c-4 2 4 12 8 10l1-3-4-1-1 2-3-4 1-1Z"/></svg></a>
 </body>
 </html>

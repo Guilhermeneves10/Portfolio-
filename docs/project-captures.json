@@ -1,0 +1,53 @@
+[
+  {
+    "project": "Bichinho Feliz",
+    "slug": "bichinho-feliz",
+    "url": "https://bichinho-feliz.vercel.app/",
+    "title": "Bichinho Feliz | Cuidado que faz bem",
+    "capturedAt": "2026-09-25T19:23:48.407Z",
+    "width": 1440,
+    "height": 900,
+    "aspectRatio": "8:5",
+    "original": "captures/projects/bichinho-feliz-2026-09-25T19-23-48-040Z-f3a06211.png",
+    "originalBytes": 182504,
+    "optimized": "assets/images/projects/bichinho-feliz.webp",
+    "optimizedBytes": 51430,
+    "small": "assets/images/projects/bichinho-feliz-720.webp",
+    "smallBytes": 20216,
+    "reductionPercent": 71.8
+  },
+  {
+    "project": "Seven Wealth",
+    "slug": "seven-wealth",
+    "url": "https://seven-wealth.vercel.app/",
+    "title": "Seven Wealth — Seu patrimônio começa com um plano",
+    "capturedAt": "2026-09-25T19:23:50.694Z",
+    "width": 1440,
+    "height": 900,
+    "aspectRatio": "8:5",
+    "original": "captures/projects/seven-wealth-2026-09-25T19-23-50-365Z-88a0f234.png",
+    "originalBytes": 309041,
+    "optimized": "assets/images/projects/seven-wealth.webp",
+    "optimizedBytes": 48724,
+    "small": "assets/images/projects/seven-wealth-720.webp",
+    "smallBytes": 16716,
+    "reductionPercent": 84.2
+  },
+  {
+    "project": "Seven Menu — Forno & Brasa",
+    "slug": "seven-menu",
+    "url": "https://seven-menu.vercel.app/",
+    "title": "Seven Menu — O primeiro sabor é visual.",
+    "capturedAt": "2026-09-25T19:23:52.925Z",
+    "width": 1440,
+    "height": 900,
+    "aspectRatio": "8:5",
+    "original": "captures/projects/forno-e-brasa-2026-09-25T19-23-52-118Z-1e43fa76.png",
+    "originalBytes": 692004,
+    "optimized": "assets/images/projects/forno-e-brasa.webp",
+    "optimizedBytes": 83652,
+    "small": "assets/images/projects/forno-e-brasa-720.webp",
+    "smallBytes": 30752,
+    "reductionPercent": 87.9
+  }
+]

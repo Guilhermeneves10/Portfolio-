@@ -1,0 +1,3 @@
+# TODO: configure site.url and run npm run build before publishing.
+User-agent: *
+Disallow: /
