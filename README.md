@@ -55,6 +55,8 @@ Os testes de navegador e Lighthouse precisam do servidor local ativo e do Google
 
 ## Hospedagem
 
+Na Vercel, `vercel.json` executa `node tools/build-vercel.mjs` e publica a pasta `dist/`, com apenas os arquivos públicos do site. Essa configuração substitui o diretório de saída definido no painel. Para verificar localmente, execute `node tools/build-vercel.mjs`.
+
 Publicar `index.html`, `en/`, `assets/`, `robots.txt` e `sitemap.xml`, preservando a estrutura. Não publicar `node_modules/`, `reports/`, `tools/` ou documentos de auditoria. Nenhum commit, push ou deploy é feito automaticamente.
 
 Veja `docs/AUDIT.md` para a auditoria e `docs/VALIDATION.md` para os resultados da implementação.
